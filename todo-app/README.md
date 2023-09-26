@@ -1,6 +1,6 @@
 <h1>Todo-app</h1>
 <hr>
-<p style={{color:'blue'}}>할일 입력</p>
+<p>할일 입력</p>
 <p>삭제</p>
 <p>체크기능</p>
 <hr>
