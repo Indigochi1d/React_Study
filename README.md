@@ -4,3 +4,4 @@
 <h3><a href="https://www.notion.so/React-8475297a545e419d8c5739c5d2805da5" target="_blank">정리 내용 In Notion..</a></h3>
 <hr>
 <h3>1.todo-app 만들기</h3>
+<h3>2.News Viewer</h3>
