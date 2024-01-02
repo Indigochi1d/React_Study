@@ -5,3 +5,4 @@
 <hr>
 <h3>1.Todo-App</h3>
 <h3>2.News Viewer</h3>
+<h3>3.Vanila Redux</h3>
