@@ -1,0 +1,22 @@
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 60px;
+    height: 30px;
+    border: 1px solid white;
+    background-color: green;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.btn:active{
+    transform: scale(0.97);
+}
