@@ -1,8 +1,11 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Menu from "./components/Menu";
-import RedPage from "./pages/RedPage";
-import Bluepage from "./pages/Bluepage";
+import loadable from "@loadable/component";
+
+const RedPage = loadable(()=>import("./pages/RedPage"));
+const BluePage = loadable(()=>import("./pages/Bluepage"));
+const UsersPage = loadable(()=>import("./pages/UsersPage"));
 
 function App() {
   return (
@@ -10,8 +13,9 @@ function App() {
       <Menu />
       <hr />
       <Routes>
-        <Route path="/red" element={<RedPage/>}/>
-        <Route path="/blue" element={<Bluepage/>}/>
+        <Route path="/red" element={<RedPage />} />
+        <Route path="/blue" element={<BluePage />} />
+        <Route path="/users/*" element={<UsersPage />} />
       </Routes>
     </div>
   );

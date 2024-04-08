@@ -14,6 +14,11 @@ const Menu = () => {
                     blue
                 </Link>
             </li>
+            <li>
+                <Link to="users">
+                    Users
+                </Link>
+            </li>
        </ul> 
     );
 };
